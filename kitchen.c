@@ -3,7 +3,6 @@
 
 #define MAX_ITEMS 10
 
-// Structure to hold kitchen item and its location
 struct KitchenItem {
     char name[30];
     char location[50];
@@ -51,3 +50,4 @@ int main() {
 
     return 0;
 }
+
